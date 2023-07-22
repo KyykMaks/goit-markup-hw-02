@@ -1,5 +1,5 @@
 body {
-  font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+  font-family:'Roboto', sans-serif;
   color: var(--slate, #434455);
   background-color: #fff;
   font-size: 16px;
@@ -12,7 +12,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -35,16 +35,15 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-.list{
-    list-style: none;
+.list {
+  list-style: none;
 }
-.address-list.list {
-    color: var(--slate, #434455);
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+.address-list {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
-
