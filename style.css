@@ -1,5 +1,5 @@
 body {
-  font-family:'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: var(--slate, #434455);
   background-color: #fff;
   font-size: 16px;
@@ -8,27 +8,29 @@ body {
 }
 .logo {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-next {
   color: var(--navyblue, #2e2f42);
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 21px; /* 116.667% */
+  line-height: 1.17px;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .menu {
   color: var(--navyblue, #2e2f42);
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -46,4 +48,71 @@ body {
   font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
+}
+
+/* Header 1 */
+.name-h {
+  color: var(--navyblue, #2e2f42);
+  text-align: center;
+  /* Header 2 */
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.main {
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;
+}
+/* Button Text */
+.button-tage {
+  border-radius: 4px;
+  border: 1px solid var(--cornflower, #e7e9fc);
+  background: var(--cloud, #f4f4fd);
+}
+.button-name {
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.but {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--iris, #4d5ae5);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+/* Body */
+.name-paragrah {
+  color: var(--slate, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.name-advantages {
+  color: var(--navyblue, #2e2f42);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
