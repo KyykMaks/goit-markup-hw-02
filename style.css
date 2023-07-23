@@ -28,6 +28,16 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.logo-studio {
+  color: var(--cloud, #f4f4fd);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
 .menu {
   color: var(--navyblue, #2e2f42);
   font-family: 'Raleway', sans-serif;
@@ -49,12 +59,13 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
-
+.section {
+  background: var(--navyblue, #2e2f42);
+}
 /* Header 1 */
 .name-h {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  /* Header 2 */
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
@@ -81,6 +92,18 @@ body {
 }
 .button-name {
   color: var(--white, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+.button-all {
+  color: var(--white, #fff);
+  text-align: center;
+  /* Button Text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -97,14 +120,36 @@ body {
   background: var(--iris, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+.button-portfolio {
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
 /* Body */
 .name-paragrah {
   color: var(--slate, #434455);
+  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+.name-studio {
+  color: var(--slate, #434455);
+  text-align: center;
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.11px; /* 150% */
   letter-spacing: 0.32px;
 }
 .name-advantages {
@@ -115,4 +160,17 @@ body {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
+}
+footer {
+  background: var(--navyblue, #2e2f42);
+}
+.footer-paragrah {
+  color: var(--cloud, #f4f4fd);
+  /* Body */
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
