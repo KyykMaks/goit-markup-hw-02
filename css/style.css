@@ -87,26 +87,12 @@ body {
   line-height: 1.07px; /* 107.143% */
   letter-spacing: 1.12px;
 }
-/* Button Text */
-.button-tage {
-  background: var(--cloud, #f4f4fd);
-  color: var(--iris, #4d5ae5);
-  text-align: center;
-  /* Button Text */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
-}
 
 .button-all {
-  background: var(--ocean, #404bbf);
-  color: var(--white, #fff);
+  background: #F4F4FD ;
+  color: #4d5ae5;
   text-align: center;
-  /* Button Text */
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
