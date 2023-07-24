@@ -15,8 +15,6 @@ body {
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
 }
 .logo-next {
   color: var(--navyblue, #2e2f42);
@@ -26,8 +24,7 @@ body {
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
+  
 }
 .logo-studio {
   color: var(--cloud, #f4f4fd);
@@ -37,7 +34,7 @@ body {
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.54px;
-  text-transform: uppercase;
+  
 }
 .menu {
   color: var(--navyblue, #2e2f42);
