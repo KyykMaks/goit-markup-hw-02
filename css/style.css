@@ -5,13 +5,7 @@ body {
 }
 
 :root {
-  --iris: #4d5ae5;
-  --navyblue: #2e2f42;
-  --ocean: #404bbf;
-  --slate: #434455;
   --white: #fff;
-  --cloud: #f4f4fd;
-  --cornflower: #e7e9fc;
 }
 .logo {
   color: var(--iris, #4d5ae5);
