@@ -90,9 +90,9 @@ body {
 /* Button Text */
 .button-tage {
   background: var(--cloud, #f4f4fd);
-}
-.button-name {
-  color: var(--white, #fff);
+  color: var(--iris, #4d5ae5);
+  text-align: center;
+  /* Button Text */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -100,11 +100,13 @@ body {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
+
 .button-all {
   background: var(--ocean, #404bbf);
   color: var(--white, #fff);
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  /* Button Text */
+  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
