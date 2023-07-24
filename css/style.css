@@ -8,13 +8,14 @@ body {
   --white: #fff;
 }
 .logo {
-  color: var(--iris, #4d5ae5);
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 1.17px;
-  letter-spacing: 0.54px;
+  color: var(--iris, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
 }
 .logo-next {
   color: var(--navyblue, #2e2f42);
