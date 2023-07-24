@@ -3,18 +3,18 @@ body {
   color: #434455;
   background-color: var(--slate, #ffffff);
 }
-:root{
-  --white: #FFF; 
+:root {
+  --white: #fff;
 }
 .logo {
-  color: var(--iris, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
+  color: var(--iris, #4d5ae5);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .logo-next {
   color: var(--navyblue, #2e2f42);
@@ -24,17 +24,19 @@ text-transform: uppercase;
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.54px;
-  
 }
 .logo-studio {
   color: var(--cloud, #f4f4fd);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 1.17px;
   letter-spacing: 0.54px;
-  
+}
+.menu.link:hover,
+.menu.link:focus {
+  color: #404bbf;
 }
 .menu {
   color: var(--navyblue, #2e2f42);
@@ -60,6 +62,13 @@ text-transform: uppercase;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
 }
+.address-list.link:hover,
+.address-list.link:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
 .section {
   background: var(--navyblue, #2e2f42);
 }
@@ -74,7 +83,7 @@ text-transform: uppercase;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 111.111% */
+  line-height: 1.11px; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -85,7 +94,7 @@ text-transform: uppercase;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
+  line-height: 1.07px; /* 107.143% */
   letter-spacing: 1.12px;
 }
 /* Button Text */
@@ -104,9 +113,22 @@ text-transform: uppercase;
 .button-all {
   background: var(--ocean, #404bbf);
 }
-.but {
-  background: var(--iris, #4d5ae5);
+.button {
+  background-color: #4D5AE5;
+  color: var(--white, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+  cursor: pointer;
 }
+.button:hover,
+.button:focus {
+  background-color: #404BBF ;
+}
+
 .button-portfolio {
   color: var(--iris, #4d5ae5);
   text-align: center;
@@ -119,12 +141,12 @@ text-transform: uppercase;
 }
 /* Body */
 .name-paragrah {
-font-family: Roboto;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
-letter-spacing: 0.32px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 .name-studio {
   color: var(--slate, #434455);
