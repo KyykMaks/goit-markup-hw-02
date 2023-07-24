@@ -119,14 +119,12 @@ text-transform: uppercase;
 }
 /* Body */
 .name-paragrah {
-  color: var(--slate, #434455);
-  /* Body */
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.32px;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px; /* 150% */
+letter-spacing: 0.32px;
 }
 .name-studio {
   color: var(--slate, #434455);
