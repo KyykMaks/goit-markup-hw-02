@@ -12,7 +12,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
@@ -22,7 +22,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
 }
 .logo-studio {
@@ -31,7 +31,7 @@ body {
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17px;
+  line-height: 1.17;
   letter-spacing: 0.54px;
 }
 .menu.link:hover,
@@ -44,7 +44,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px;
   letter-spacing: 0.32px;
 }
 .list {
@@ -84,7 +84,7 @@ body {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.07px; /* 107.143% */
+  line-height: 1.07; /* 107.143% */
   letter-spacing: 1.12px;
 }
 
@@ -121,7 +121,9 @@ body {
 .button:focus {
   background-color: #404bbf;
 }
-
+.name-list {
+  background-color: #FFFFFF;
+}
 /* Body */
 .name-h {
   color: var(--navyblue, #2e2f42);
@@ -130,7 +132,7 @@ body {
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11px; /* 111.111% */
+  line-height: 1.11; /* 111.111% */
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
@@ -150,7 +152,7 @@ body {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.11px; /* 150% */
+  line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
 .name-advantages {
